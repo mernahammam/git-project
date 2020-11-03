@@ -36,6 +36,22 @@ steps for lab 2 :
 			-git push origin :dev
 	5)send invitation on your mail.
 		-from github ---> sitting ---> manage access ---> invite a collaborator ---> write email
+	6)create an annoted tag with tagname v1.4
+		-git tag -a v1.4 -m "annoted tag"
+	7) push it to remote server
+		- git push origin v1.4
+	8) how to delete tag remotely?
+		- locally:
+			*git tag -d v1.4
+		-remotely:
+			*git push origin --delete v1.4
+	9)readmi.md file
+		-touch readme.md
+		-code.
+		-https://commonmark.org/help/tutorial/  ---> follow steps to know how to right
+		-git add .
+		-git commit -m "create readme file ans edit text file"
+		-git push origin main
 
 
 		
