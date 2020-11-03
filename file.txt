@@ -1,0 +1,41 @@
+steps for lab 2 :
+	1)create a new project then push it to your remote repo.
+		- right click folder name (merna essam hammam) or mkdir merna essam hammam
+		- git init 
+		-ls -a
+		-touch file.html
+		- git add .
+		-git commit -m "create html file" 
+		-on github : made a new repo (public)
+		-git branch -M main
+		-git remote -v
+		-git push origin main
+		
+	2)create two branches (dev and test) then push it to your main branch.
+		-git branch
+		-git branch dev
+		-git branch test
+		-ls
+		-git check out dev
+		- touch a1.html
+		-tuch a2.html
+		-git add .
+		-git commit -m "create 2 files html in dev branch (a1.html a2.html)"
+		- git push origin dev
+		-git push origin test
+	3) merge the changes then push it to your remote main branch.
+		-git merge dev
+		-git merge test
+		-git push origin dev
+		-git push origin test
+	4)how to remove them locally and remotly.
+		*locally :
+			-git branch -d dev ---->if you make merge
+			-git branch -D dev ----> if you do not make merge
+		*remotely:
+			-git push origin :dev
+	5)send invitation on your mail.
+		-from github ---> sitting ---> manage access ---> invite a collaborator ---> write email
+
+
+		
